@@ -1,5 +1,5 @@
 CREATE DATABASE cities;
-CREATE TABLE city(city_id int NOT NULL AUTO_INCREMENT UNIQUE, name VARCHAR(45) NOT NULL, description VARCHAR(500), PRIMARY KEY (city_id));
+CREATE TABLE city(city_id int NOT NULL AUTO_INCREMENT UNIQUE, name VARCHAR(45) NOT NULL UNIQUE, description VARCHAR(500), PRIMARY KEY (city_id));
 
 Заполнение БД:
 

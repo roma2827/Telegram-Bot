@@ -1,0 +1,35 @@
+CREATE DATABASE cities;
+CREATE TABLE city(city_id int NOT NULL AUTO_INCREMENT UNIQUE, name VARCHAR(45) NOT NULL, description VARCHAR(500), PRIMARY KEY (city_id));
+
+Заполнение БД:
+
+INSERT INTO city VALUES ('1','Minsk', 'Minsk is the capital and largest city of Belarus, situated on the Svisla? and the Nyamiha Rivers. As the capital, Minsk has a special administrative status in Belarus and is the administrative centre of Minsk Region (voblas?) and Minsk District (rajon). The population in January 2018 was 1,982,444, (not including suburbs) making Minsk the 11th most populous city in Europe. Minsk is the administrative capital of the Commonwealth of Independent States (CIS) and seat of its Executive Secretary.');
+
+INSERT INTO city VALUES ('2','Gomel', 'Gomel is the administrative centre of Gomel Region and with 526,872 inhabitants (2015 census)[2] the second-most populous city of Belarus.');
+
+INSERT INTO city VALUES ('3','Brest', 'Brest is a city (population 350,616 in 2019) in Belarus at the border with Poland opposite the Polish city of Terespol, where the Bug and Mukhavets rivers meet. It is the capital city of the Brest Region.');
+
+INSERT INTO city VALUES ('4','Grodno', 'Grodno - is a city, the regional center of the Grodno region of Belarus. Grodno city occupies a special place among the cultural and historical heritage of Belarus. In Grodno very many sights and attractions, many of which are essential for the whole country. Grodno city and its sights and attractions is not about one single website.');
+
+INSERT INTO city VALUES ('5','Mogilev', 'Mogilev is a city in eastern Belarus, on the Dnieper River, about 76 kilometres from the border with Russias Smolensk Oblast and 105 km (65 miles) from the border with Russias Bryansk Oblast. As of 2011, its population was 360,918,[1] up from an estimated 106,000 in 1956. It is the administrative centre of Mogilev Region and the third largest city in Belarus.');
+
+INSERT INTO city VALUES ('6','Vitebsk', 'Vitebsk developed from a river harbor where the Vitba River flows into the larger Western Dvina, which is spanned in the city by the Kirov Bridge.');
+
+INSERT INTO city VALUES ('7','Kiev', 'Kiev or Kyiv[a] is the capital and most populous city of Ukraine. It is in north-central Ukraine along the Dnieper River. Its population in July 2015 was 2,887,974[1] (though higher estimated numbers have been cited in the press),[12] making Kiev the 6th-most populous city in Europe.');
+
+INSERT INTO city VALUES ('8','Chernihiv', 'Chernihiv is a historic city in northern Ukraine, which serves as the administrative center of the Chernihiv Oblast (province), as well as of the surrounding Chernihiv Raion (district) within the oblast. Administratively, it is incorporated as a city of oblast significance.');
+
+INSERT INTO city VALUES ('9','Odessa', 'Odessa or Odesa is the third most populous city of Ukraine and a major tourism center, seaport and transport hub located on the northwestern shore of the Black Sea. It is also the administrative center of the Odessa Oblast and a multiethnic cultural center.');
+
+INSERT INTO city VALUES ('10','Berlin', 'Berlin, capital and chief urban centre of Germany. The city lies at the heart of the North German Plain, athwart an east-west commercial and geographic axis that helped make it the capital of the kingdom of Prussia and then, from 1871, of a unified Germany. Berlin’s former glory ended in 1945, but the city survived the destruction of World War II. It was rebuilt and came to show amazing economic and cultural growth.');
+
+INSERT INTO city VALUES ('11','London', 'London is the capital and largest city of England and the United Kingdom.[7][8] Standing on the River Thames in the south-east of England, at the head of its 50-mile (80 km) estuary leading to the North Sea, London has been a major settlement for two millennia. Londinium was founded by the Romans.');
+
+INSERT INTO city VALUES ('12','Warsaw', 'Warsaw is the capital and largest city of Poland. The metropolis stands on the Vistula River in east-central Poland and its population is officially estimated at 1.8 million residents within a greater metropolitan area of 3.1 million residents,[4] which makes Warsaw the 7th most-populous capital city in the European Union.');
+
+
+
+
+
+
+
